@@ -303,7 +303,7 @@ function App() {
               <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://youtu.be/79GJ3XQwe_U?si=RP_ZUMSBLQE5_jlA"
+                  src="https://youtube/79GJ3XQwe_U?si=RP_ZUMSBLQE5_jlA"
                   title="Campaign Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -377,12 +377,12 @@ function App() {
               <div className="grid md:grid-cols-2 gap-8">
                 {[
                   {
-                    name: "Aarav Sharma",
+                    name: "Ayussma Adhikari",
                     role: "Civil Engineering Student",
                     text: "Ishwor has always been a voice for student rights and academic excellence. His vision for our campus is exactly what we need."
                   },
                   {
-                    name: "Priya Patel",
+                    name: "Aayush shah ",
                     role: "Student Representative",
                     text: "His commitment to transparency and student welfare makes him the perfect candidate for FSU President."
                   }
