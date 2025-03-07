@@ -295,35 +295,36 @@ function App() {
       </section>
 
       {/* Video Section */}
-      <section id="video" className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <AnimatedSection>
-              <h2 className="text-3xl font-bold text-center mb-12">Campaign Video</h2>
-              <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/watch?v=79GJ3XQwe_U"
-                  title="Campaign Video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="mt-8 text-center">
-                <motion.button
-                  className="inline-flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition-colors"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Play className="w-5 h-5 mr-2" />
-                  Watch Full Video
-                </motion.button>
-              </div>
-            </AnimatedSection>
-          </div>
+<section id="video" className="py-16 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <AnimatedSection>
+        <h2 className="text-3xl font-bold text-center mb-12">Campaign Video</h2>
+        <div className="relative aspect-video min-h-[315px] rounded-xl overflow-hidden shadow-2xl">
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/lxkZku7CnG0"
+            title="Campaign Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
-      </section>
+        <div className="mt-8 text-center">
+          <a href="https://www.youtube.com/watch?v=lxkZku7CnG0" target="_blank" rel="noopener noreferrer">
+            <motion.button
+              className="inline-flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Play className="w-5 h-5 mr-2" />
+              Watch Full Video
+            </motion.button>
+          </a>
+        </div>
+      </AnimatedSection>
+    </div>
+  </div>
+</section>
 
       {/* Achievements Section */}
       <section id="achievements" className="py-16">
