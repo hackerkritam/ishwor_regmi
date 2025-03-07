@@ -73,7 +73,7 @@ function App() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <GraduationCap className={`w-8 h-8 ${isScrolled ? 'text-blue-700' : 'text-white'}`} />
+            
               <span className={`ml-2 text-xl font-bold ${isScrolled ? 'text-blue-700' : 'text-white'}`}>Ishwor Regmi</span>
             </motion.div>
 
@@ -205,7 +205,7 @@ function App() {
                     transition={{ duration: 0.3 }}
                   >
                     <img
-                      src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=600"
+                      src={ishwor}
                       alt="Campus Life"
                       className="rounded-lg shadow-md"
                     />
@@ -424,7 +424,7 @@ function App() {
                       transition={{ duration: 0.2 }}
                     >
                       <Phone className="w-6 h-6 text-blue-700 mr-3" />
-                      <p className="text-gray-600">+977 98XXXXXXXX</p>
+                      <p className="text-gray-600">+ +977 986-6140598</p>
                     </motion.div>
                     <motion.div
                       className="flex items-center"
@@ -432,7 +432,7 @@ function App() {
                       transition={{ duration: 0.2 }}
                     >
                       <Mail className="w-6 h-6 text-blue-700 mr-3" />
-                      <p className="text-gray-600">ishwor.regmi@example.com</p>
+                      <p className="text-gray-600">ishwor.regmi@gmail.com</p>
                     </motion.div>
                     <motion.div
                       className="flex items-center"
